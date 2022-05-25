@@ -2,6 +2,11 @@
 
 一个简单的反向代理工具，支持`HTTP`、`HTTPS`两种协议。
 
+### 依赖
+- [tokio](https://github.com/tokio-rs/tokio)
+- [hyper](https://github.com/hyperium/hyper)
+- [tower](https://github.com/tower-rs/tower)
+
 ### 配置文件
 
 ```yaml
